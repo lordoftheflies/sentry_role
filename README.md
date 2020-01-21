@@ -2,13 +2,13 @@
 
 ## Status
 
-[![Build Status](https://travis-ci.org/cjsteel/ansible-role-sentry.svg?branch=master)](https://travis-ci.org/cjsteel/ansible-role-sentry)
-[![Travis CI](http://img.shields.io/travis/csteel/ansible-role-sentry/default.svg?style=flat)](http://travis-ci.org/csteel/ansible-role-sentry/default)
+[![Build Status](https://travis-ci.org/lordoftheflies/ansible-role-sentry.svg?branch=master)](https://travis-ci.org/lordoftheflies/ansible-role-sentry)
+[![Travis CI](http://img.shields.io/travis/lordoftheflies/ansible-role-sentry/default.svg?style=flat)](http://travis-ci.org/lordoftheflies/ansible-role-sentry/default)
 [![Platforms](http://img.shields.io/badge/platforms-debian%20/%20ubuntu-lightgrey.svg?style=flat)](#)
 
 ## Description
 
-ansible-role-sentry is an Ansible role used to...
+Ansible Galaxy role for Sentry.
 
 ## Roadmap
 
@@ -29,8 +29,8 @@ ansible-role-sentry is an Ansible role used to...
 * [Vagrant](https://www.vagrantup.com/) - (Tested using version 2.1.1)
 * Vagrant plugins:
   * [vagrant-disksize (0.1.2)](https://github.com/sprotheroe/vagrant-disksize)
-  * vagrant-vbguest (0.15.2) - Recommended [vagrant-vbguest](https://github.com/cjsteel/vagrant-vbguest)
-  * vai (0.9.3) - For testing with multiple vms [vagrant-plugin-vai](https://github.com/cjsteel/vagrant-plugin-vai) 
+  * vagrant-vbguest (0.15.2) - Recommended [vagrant-vbguest](https://github.com/lordoftheflies/vagrant-vbguest)
+  * vai (0.9.3) - For testing with multiple vms [vagrant-plugin-vai](https://github.com/lordoftheflies/vagrant-plugin-vai) 
 * [Virtual Box](https://www.virtualbox.org/)
   * Tested using Version 5.2.14 r123301 (Qt5.6.1) 
 
@@ -73,9 +73,9 @@ pass, fail, untested
 
 ## Authors and License
 
-- [Christopher Steel](http://mcin-cnim.ca/) | [e-mail](mailto:christopher.steel@mcgill.ca)
+- [László Hegedűs](mailto:laszlo.hegedus@cherubits.hu)
 
-License: [MIT](https://tldrlegal.com/license/mit-license)
+License: [Apache-2.0](LICENSE)
 
 
-* ansible-role-ansible-role-sentry generated using [galaxy-role-skeleton](https://github.com/cjsteel/galaxy-role-skeleton)
+> **NOTE**: ansible-role-ansible-role-sentry generated using [galaxy-role-skeleton](https://github.com/lordoftheflies/galaxy-role-skeleton)
