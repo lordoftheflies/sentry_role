@@ -1,4 +1,4 @@
-# roles/ansible-role-sentry/README.md
+# Ansible Role Sentry
 
 ## Status
 
