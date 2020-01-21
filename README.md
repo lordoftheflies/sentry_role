@@ -1,4 +1,4 @@
-# Ansible Role Sentry
+# Ansible Role: Sentry
 
 ## Status
 
