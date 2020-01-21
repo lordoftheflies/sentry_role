@@ -1,0 +1,27 @@
+---
+# Ansible Role: Sentry
+
+dependencies:
+  - role: lordoftheflies.ansible_role_python
+galaxy_info:
+  author: 'László Hegedűs'
+  description: 'Ansible Galaxy role for Sentry'
+  company: 'Cherubits'
+  license: Apache-2.0
+  min_ansible_version: '2.4'
+
+  platforms:
+    - name: Ubuntu
+      versions:
+        - bionic
+        - precise
+        - trusty
+        - xenial
+  galaxy_tags:
+    - sentry
+    - ansible-role
+    - ansible-galaxy
+    - ansible
+    - monitoring
+    - diagnostics
+    - ubuntu

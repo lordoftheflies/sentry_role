@@ -1,0 +1,4 @@
+---
+# roles/ansible-role-sentry/vars/debian.yml
+
+ansible-role-sentry_package_extension: 'rpm'
