@@ -6,10 +6,10 @@ driver:
 lint:
   name: yamllint
 platforms:
-  - name: ansible-role-sentry-default-xenial
+  - name: sentry_role-default-xenial
     source:
       alias: ubuntu/xenial/amd64
-  - name: ansible-role-sentry-default-bionic
+  - name: sentry_role-default-bionic
     source:
       type: image
       alias: ubuntu/bionic/amd64

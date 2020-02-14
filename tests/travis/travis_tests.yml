@@ -1,6 +1,6 @@
---- # ansible-role-sentry/tests/travis_test.yml
+--- # sentry_role/tests/travis_test.yml
 
 - hosts: localhost
   become: true
   roles:
-    - ansible-role-sentry
+    - sentry_role

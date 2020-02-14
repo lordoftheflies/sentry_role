@@ -1,5 +1,5 @@
 ---
-# roles/ansible-role-sentry/tasks/ubuntu_18.04.yml
+# roles/sentry_role/tasks/ubuntu_18.04.yml
 
 - debug:
     msg:

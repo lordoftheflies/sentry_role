@@ -1,5 +1,5 @@
 ---
-# roles/ansible-role-sentry/defaults/main.yml
+# roles/sentry_role/defaults/main.yml
 
 ansible-role-sentry_debug: false
 

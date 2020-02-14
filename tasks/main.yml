@@ -1,5 +1,5 @@
 ---
-# roles/ansible-role-sentry/tasks/main.yml
+# roles/sentry_role/tasks/main.yml
 
 # START - boilerplate tasks
 
@@ -24,7 +24,7 @@
         - "{{ fact_role_path }}/defaults/{{ ansible_distribution | lower }}.yml"
       skip: true
 
-- name: "DEBUG - Debug ansible-role-sentry variable values"
+- name: "DEBUG - Debug sentry_role variable values"
   include: "{{ item }}"
   with_first_found:
     - files:

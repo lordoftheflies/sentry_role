@@ -8,9 +8,9 @@ driver:
 lint:
   name: yamllint
 platforms:
-  - name: ansible-role-sentry-xenial
+  - name: sentry_role-xenial
     box: cjsteel/xenial
-  - name: ansible-role-sentry-bionic
+  - name: sentry_role-bionic
     box: cjsteel/bionic
 provisioner:
   name: ansible

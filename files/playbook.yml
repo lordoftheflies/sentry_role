@@ -1,7 +1,7 @@
 ---
-# file: project/ansible-role-sentry.yml
+# file: project/sentry_role.yml
 
-- hosts: ansible-role-sentry
+- hosts: sentry_role
   become: false
   gather_facts: true
   pre_tasks:
@@ -9,7 +9,7 @@
     - set_fact: fact_role_name="{{ lookup('env','ANSIBLE_ROLE_NAME') }}"
     - debug: var=fact_role_name
 
-    - set_fact: fact_role_path="{{ lookup('pipe','pwd') }}/roles/ansible-role-sentry"
+    - set_fact: fact_role_path="{{ lookup('pipe','pwd') }}/roles/sentry_role"
     - debug: var=fact_role_path
 
   roles:
